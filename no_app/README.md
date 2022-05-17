@@ -1,1 +1,1 @@
-# repo_private_test - no app
+# repo_public_test - without any app
