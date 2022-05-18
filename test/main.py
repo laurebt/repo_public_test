@@ -2,7 +2,7 @@ from math import sqrt
 import random
 
 #######################################################
-def __check_if_prime__(n):
+def check_if_prime(n):
 
 	prime_flag = 0
 
@@ -22,7 +22,7 @@ def __check_if_prime__(n):
 if __name__ == '__main__':
 
 	n = random.randint(0, 10000)
-	status = __check_if_prime__(n)
+	status = check_if_prime(n)
 	if status:
 		print(str(n) + " is a prime number")
 	else:
