@@ -5,7 +5,7 @@ import random
 import streamlit as st
 
 #######################################################
-def __check_status__(n):
+def check_status(n):
 
 	prime_flag = 0
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
 	st.title("Check if prime number")
 	n = st.text_input('Insert an integer', value="0")
 
-	status = __check_status__(int(n))
+	status = check_status(int(n))
 	if status:
 		st.text(str(n) + " is a prime number")
 	else:
